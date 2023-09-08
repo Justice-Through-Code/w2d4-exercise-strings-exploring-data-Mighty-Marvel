@@ -7,7 +7,7 @@ ingredient_3 = 'flour'
 ingredient_4 = 'sugar'
 
 
-def print_ingredients():  # Ways to work with strings/printing
+#def print_ingredients():  # Ways to work with strings/printing
     # Those are the right ingredients, aren't they? Let's print them out a few different ways to check
 
     # 1.1 Using one print statement, print out the ingredients as 4 separate strings
@@ -15,12 +15,12 @@ def print_ingredients():  # Ways to work with strings/printing
     # 1.2 Using one print statement, use string concatenation to print the ingredients
     
     # as a single string (make sure to add a space between each ingredient!)
-    print(ingredient_1, ingredient_2, ingredient_3, ingredient_4)
+    print(ingredient_1 , ingredient_2 , ingredient_3 , ingredient_4)
     # 1.3 Using one print statement, use an f-string to print the ingredients
     # as a single string (make sure to add a space between each ingredient!)
     print(f"{ingredient_1} {ingredient_2} {ingredient_3} {ingredient_4}")
 
-def confirm_ingredients():  # String methods
+#def confirm_ingredients():  # String methods
     global ingredient_1, ingredient_2, ingredient_3, ingredient_4
     # 2.1 Save the f-string you wrote above into a variable called `ingredients`.
     ingredients = (f"{ingredient_1} {ingredient_2} {ingredient_3} {ingredient_4} ")
@@ -44,7 +44,7 @@ def confirm_ingredients():  # String methods
 #confirm_ingredients()
 
 
-def favorite_bake():  # User Input/Type conversion
+#def favorite_bake():  # User Input/Type conversion
     # The beauty of these ingredients is that you can make tons with them. 
     # Let's get some user input to decide what to bake!
 
