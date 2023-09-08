@@ -13,7 +13,7 @@ def print_ingredients():  # Ways to work with strings/printing
     # 1.1 Using one print statement, print out the ingredients as 4 separate strings
     print("milk", "eggs", "flour", "sugar")
     # 1.2 Using one print statement, use string concatenation to print the ingredients
-    print(ingredient_1 , ingredient_2 , ingredient_3 , ingredient_4)
+    print(ingredient_1, ingredient_2, ingredient_3, ingredient_4)
     # as a single string (make sure to add a space between each ingredient!)
     
     # 1.3 Using one print statement, use an f-string to print the ingredients
