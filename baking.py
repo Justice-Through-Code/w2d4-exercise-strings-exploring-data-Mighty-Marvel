@@ -13,9 +13,9 @@ def print_ingredients():  # Ways to work with strings/printing
     # 1.1 Using one print statement, print out the ingredients as 4 separate strings
     print("milk", "eggs", "flour", "sugar")
     # 1.2 Using one print statement, use string concatenation to print the ingredients
-    
+    print(ingredient_1 , ingredient_2 , ingredient_3 , ingredient_4)
     # as a single string (make sure to add a space between each ingredient!)
-    print(milk , eggs , flour , sugar)
+    
     # 1.3 Using one print statement, use an f-string to print the ingredients
     # as a single string (make sure to add a space between each ingredient!)
     print(f"{ingredient_1} {ingredient_2} {ingredient_3} {ingredient_4}")
@@ -23,7 +23,7 @@ def print_ingredients():  # Ways to work with strings/printing
 def confirm_ingredients():  # String methods
     global ingredient_1, ingredient_2, ingredient_3, ingredient_4
     # 2.1 Save the f-string you wrote above into a variable called `ingredients`.
-    ingredients = (f"{ingredient_1} {ingredient_2} {ingredient_3} {ingredient_4} ")
+    ingredients = (f"{ingredient_1} {ingredient_2} {ingredient_3} {ingredient_4}")
     # Aha, that's the issue! We need to use butter, not milk.
     # 2.2 In a print statement, use one of the string methods from class to replace 'milk' with 'butter'
     print(ingredients.replace("milk", "butter"))
@@ -44,14 +44,13 @@ def confirm_ingredients():  # String methods
 #confirm_ingredients()
 
 
-def favorite_bake():  # User Input/Type conversion
+#def favorite_bake():  # User Input/Type conversion
     # The beauty of these ingredients is that you can make tons with them. 
     # Let's get some user input to decide what to bake!
 
     # 3.1 Create a variable called `baked_good`, that saves the user's input to the question:
     # What is your favorite baked good?
     baked_good = input("What is your favorite baked good?")
-
     # 3.2 Create a second variable called `frequency` that asks the user:
     # Roughly how many times a month do you eat <baked_good>s? <-- use your `baked_good` variable in an f-string here
     frequency = input(f"Roughly how many times a month do you eat {baked_good}s?")
