@@ -44,7 +44,7 @@ def confirm_ingredients():  # String methods
 #confirm_ingredients()
 
 
-#def favorite_bake():  # User Input/Type conversion
+def favorite_bake():  # User Input/Type conversion
     # The beauty of these ingredients is that you can make tons with them. 
     # Let's get some user input to decide what to bake!
 
