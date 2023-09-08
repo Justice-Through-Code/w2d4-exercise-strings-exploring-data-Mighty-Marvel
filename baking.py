@@ -15,7 +15,7 @@ def print_ingredients():  # Ways to work with strings/printing
     # 1.2 Using one print statement, use string concatenation to print the ingredients
     
     # as a single string (make sure to add a space between each ingredient!)
-    print(ingredient_1 , ingredient_2  , ingredient_3  , ingredient_4)
+    print(ingredient_1, ingredient_2, ingredient_3, ingredient_4)
     # 1.3 Using one print statement, use an f-string to print the ingredients
     # as a single string (make sure to add a space between each ingredient!)
     print(f"{ingredient_1} {ingredient_2} {ingredient_3} {ingredient_4}")
@@ -23,7 +23,7 @@ def print_ingredients():  # Ways to work with strings/printing
 def confirm_ingredients():  # String methods
     global ingredient_1, ingredient_2, ingredient_3, ingredient_4
     # 2.1 Save the f-string you wrote above into a variable called `ingredients`.
-    ingredients = (f{ingredient_1} {ingredient_2} {ingredient_3} {ingredient_4} )
+    ingredients = (f"{ingredient_1} {ingredient_2} {ingredient_3} {ingredient_4} ")
     # Aha, that's the issue! We need to use butter, not milk.
     # 2.2 In a print statement, use one of the string methods from class to replace 'milk' with 'butter'
     print(ingredients.replace("milk", "butter"))
